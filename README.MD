@@ -3,6 +3,10 @@
 This repository contains the source code to reproduce experiments 
 
 
+<p align="center"><img src="images/architecture.jpg" width="450" /></p>
+
+
+
 ## Presentation and report
 
 The presentation slides and reports are 
