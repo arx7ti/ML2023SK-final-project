@@ -3,9 +3,8 @@
 This repository contains the source code to reproduce experiments 
 
 
-![Alt text](images/architecture.jpg?raw=true "Title")
 
-<p align="center"><img src="images/architecture.jpg" width="600" /></p>
+<p align="center"><img src="images/architecture.jpg" width="1200" /></p>
 
 
 ## Presentation and report
@@ -47,19 +46,18 @@ python baseline_classical_ml.py
 All the results are specified in the [report](https;//). Here, we provide the most important ones. First, our model showed the best perfomance on train and test data compared with other modern algorithms for NILM.  
 
 
-![Alt text](images/f1_scores.png?raw=true "Title")
+
+<p align="center"><img src="images/f1_scores.png" width="900" /></p>
+
 
 Our model have more uniform predictions of each appliance compared with other models. Previously, it was dictated with data imbalance, which our model tackled better.
 
 
-![Alt text](images/real.f1.bars.png?raw=true "Title")
+
+<p align="center"><img src="images/real.f1.bars.png" width="900" /></p>
 
 
-![Alt text](images/components.png?raw=true "Title")
-
-
-
-
+<p align="center"><img src="images/components.png" width="900" /></p>
 
 
 
