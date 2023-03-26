@@ -46,7 +46,7 @@ python baseline_classical_ml.py
 All the results are specified in the [report](https;//). Here, we provide the most important ones. First, our model showed the best performance on train and test data compared with other modern algorithms for NILM.   
 
 
-<p align="center"><img src="images/f1_scores.png" width="900" /></p>
+<p align="center"><img src="images/f1_scores.png" width="700" /></p>
 
 
 Our model has more uniform predictions for each appliance compared with other models. Previously, it was dictated by data imbalance, which our model tackled better.
@@ -56,7 +56,7 @@ Our model has more uniform predictions for each appliance compared with other mo
 
 The analysis of components showed the components of synthetic data are independents, whereas the real data have dependence. It can be explained by the fact that some appliances can be up to a certain order considered similar to the other. For instance, washing machine simultaneously have heating, rotating parts and their power signal can be similar to other heating and rotating appliances. 
 
-<p align="center"><img src="images/components.png" width="700" /></p>
+<p align="center"><img src="images/components.png" width="900" /></p>
 
 
 
