@@ -9,7 +9,7 @@ This repository contains the source code to reproduce experiments
 
 ## Presentation and report
 
-The [presentation slides]([https://github.com/arx7ti/ML2023SK-final-project/tree/main/presentation](https://github.com/arx7ti/ML2023SK-final-project/blob/main/presentation/ml_team37_presentation.pdf)) and [report]() with all the results.  
+The [presentation slides](https://github.com/arx7ti/ML2023SK-final-project/tree/main/presentation](https://github.com/arx7ti/ML2023SK-final-project/blob/main/presentation/ml_team37_presentation.pdf) and report with all the results.  
 
 
 ## Environments 
@@ -46,7 +46,7 @@ python baseline_classical_ml.py
 All the results are specified in the [report](https;//). Here, we provide the most important ones. First, our model showed the best performance on train and test data compared with other modern algorithms for NILM.   
 
 
-<p align="center"><img src="images/f1_scores.png" width="700" /></p>
+<p align="center"><img src="images/f1_scores.png" width="900" /></p>
 
 
 Our model has more uniform predictions for each appliance compared with other models. Previously, it was dictated by data imbalance, which our model tackled better.
