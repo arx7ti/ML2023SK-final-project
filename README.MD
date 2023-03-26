@@ -5,6 +5,7 @@ This repository contains the source code to reproduce experiments
 
 <p align="center"><img src="images/architecture.jpg" width="450" /></p>
 
+![Alt text](images/architecture.jpg?raw=true "Title")
 
 
 ## Presentation and report
