@@ -9,7 +9,7 @@ This repository contains the source code to reproduce experiments
 
 ## Presentation and report
 
-The [presentation slides](https://github.com/arx7ti/ML2023SK-final-project/tree/main/presentation) and report are 
+The [presentation slides]([https://github.com/arx7ti/ML2023SK-final-project/tree/main/presentation](https://github.com/arx7ti/ML2023SK-final-project/blob/main/presentation/ml_team37_presentation.pdf)) and [report]() with all the results.  
 
 
 ## Environments 
