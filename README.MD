@@ -42,6 +42,18 @@ python baseline_classical_ml.py
 
 ## Results 
 
+All the results are specified in the [report](https;//). Here, we provide the most important ones. First, our model showed the best perfomance compared with 
+
+
+![Alt text](images/f1_scores.png?raw=true "Title")
+
+
+![Alt text](images/real.f1.bars.png?raw=true "Title")
+
+
+![Alt text](images/components.png?raw=true "Title")
+
+
 
 
 
