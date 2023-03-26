@@ -5,7 +5,7 @@ This repository contains the source code to reproduce experiments
 
 ![Alt text](images/architecture.jpg?raw=true "Title")
 
-<img src="https://github.com/favicon.ico](https://github.com/arx7ti/ML2023SK-final-project/blob/main/images/architecture.jpg)" width="48">
+<p align="center"><img src="images/architecture.jpg" width="600" /></p>
 
 
 ## Presentation and report
@@ -44,10 +44,12 @@ python baseline_classical_ml.py
 
 ## Results 
 
-All the results are specified in the [report](https;//). Here, we provide the most important ones. First, our model showed the best perfomance compared with 
+All the results are specified in the [report](https;//). Here, we provide the most important ones. First, our model showed the best perfomance on train and test data compared with other modern algorithms for NILM.  
 
 
 ![Alt text](images/f1_scores.png?raw=true "Title")
+
+Our model have more uniform predictions of each appliance compared with other models. Previously, it was dictated with data imbalance, which our model tackled better.
 
 
 ![Alt text](images/real.f1.bars.png?raw=true "Title")
