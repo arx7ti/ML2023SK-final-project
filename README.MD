@@ -5,6 +5,8 @@ This repository contains the source code to reproduce experiments
 
 ![Alt text](images/architecture.jpg?raw=true "Title")
 
+<img src="https://github.com/favicon.ico](https://github.com/arx7ti/ML2023SK-final-project/blob/main/images/architecture.jpg)" width="48">
+
 
 ## Presentation and report
 
