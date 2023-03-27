@@ -43,7 +43,7 @@ python baseline_classical_ml.py
 
 ## Results 
 
-All the results are specified in the [report](https;//). Here, we provide the most important ones. First, our model showed the best performance on train and test data compared with other modern algorithms for NILM.   
+All the results are specified in the [report](https;//). Here, we provide the most important ones. First, our model showed the best performance on train and test data compared with other modern algorithms for NILM. Furthermore, the training curve is smoother than for the previous algorithms. Important to note, our architecture of the CNN model is relatively simple compared with some previously suggested Neural Network models. The enhanced performance was achieved with data separation, pre-processing and the addition of synthetic data to the training dataset. 
 
 
 <p align="center"><img src="images/f1_scores.png" width="700" /></p>
