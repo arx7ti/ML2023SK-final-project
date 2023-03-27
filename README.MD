@@ -1,6 +1,8 @@
 # Energy Disaggregation. A Case Study of Large Number of Components
 
-This repository contains the source code to reproduce experiments 
+This repository contains the source code to reproduce experiments on energy disaggregation problem with the use of the Fryze power theory and Convolutional Neural Network. 
+
+In this work, we suggest a novel approach to tackle the problem of energy disaggregation with the use of Non-Intrusive Load Monitoring (NILM). NILM offers an electricity consumption pattern of individual loads at consumer premises, which increases the efficiency of electric consumption for each separate appliance. We develop an algorithm based on the pre-processing with the Fryze power theory alongside with statistical methods and simple Convolutional Neural Network. The model’s performance is one of the best over top-level models in this aread. Concurrently, our approach works well for a numerous simultaneously working appliances, which was a weak spot of all previous models.
 
 
 
@@ -9,7 +11,7 @@ This repository contains the source code to reproduce experiments
 
 ## Presentation and report
 
-The [presentation slides](https://github.com/arx7ti/ML2023SK-final-project/blob/main/presentation/ml_team37_presentation.pdf) and report with all the results.  
+The [presentation slides](https://github.com/arx7ti/ML2023SK-final-project/blob/main/presentation/ml_team37_presentation.pdf) and report with all the obtained results and discussion.  
 
 
 ## Environments 
@@ -30,7 +32,7 @@ Another option is to use already prepared data and run the whole jupyter noteboo
 
 ## Training and Testing models 
 
-All the training and testing of ICAResNetFFN model and baseline Neural Network models (Temporal Pooling NILM and FIT-PS LSTM), you need to run jupyter notebook `jupyter notebook`. 
+All the training and testing of ICAResNetFFN model and baseline Neural Network models (Temporal Pooling NILM and FIT-PS LSTM), you need to run jupyter notebook `ML2023SK_Team37_final.ipynb`. 
 
 
 ## Baseline classical ML models
