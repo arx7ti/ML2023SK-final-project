@@ -11,12 +11,12 @@ In this work, we suggest a novel approach to tackle the problem of energy disagg
 
 ## Presentation and report
 
-The [presentation slides](https://github.com/arx7ti/ML2023SK-final-project/blob/main/presentation/ml_team37_presentation.pdf) and report with all the obtained results and discussion.  
+The [presentation slides](https://github.com/arx7ti/ML2023SK-final-project/blob/main/presentation/ml_team37_presentation.pdf) and [report](https://github.com/arx7ti/ML2023SK-final-project/blob/main/report/final_project_report.pdf) with all the obtained results and discussion.  
 
 
 ## Environments 
 
-The implementation is GPU-based. Double GPU (GTX RTX 2080 Ti) is enough to train and test the models. All the calculations take approximately 40 minutes.
+The implementation is GPU-based. Double GPU (GTX RTX 2080 Ti) is enough to train and test the models. All the calculations take approximately 45 minutes.
 
 The list of the packages on which the mode tested is `requirements.txt` file. The most important one are
 
@@ -32,10 +32,12 @@ Another option is to use already prepared data and run the whole jupyter noteboo
 
 ## Training and Testing models 
 
-All the training and testing of ICAResNetFFN model and baseline Neural Network models (Temporal Pooling NILM and FIT-PS LSTM), you need to run jupyter notebook `ML2023SK_Team37_final.ipynb`. 
+All the training and testing of ICAResNetFFN model and baseline Neural Network models (Temporal Pooling NILM and FIT-PS LSTM), you need to run jupyter notebook `ML2023SK_Team37_final.ipynb`. In addition, it will produce all figures provided in the `figures/` directory.
 
 
 ## Baseline classical ML models
+
+If you want to personally separate the PLAID data, you need to download it and save to aggregated/ and synthetic/ directories, respectively. The metadata should be in the root directory.   <br />
 
 To get the scores of baseline classical models for comparison, run the following command 
 ```
@@ -45,7 +47,7 @@ python baseline_classical_ml.py
 
 ## Results 
 
-All the results are specified in the [report](https;//). Here, we provide the most important ones. First, our model showed the best performance on train and test data compared with other modern algorithms for NILM. Furthermore, the training curve is smoother than for the previous algorithms. Important to note, our architecture of the CNN model is relatively simple compared with some previously suggested Neural Network models. The enhanced performance was achieved with data separation, pre-processing and the addition of synthetic data to the training dataset. 
+All the results are specified in the [report](https://github.com/arx7ti/ML2023SK-final-project/blob/main/report/final_project_report.pdf). Here, we provide the most important ones. First, our model showed the best performance on train and test data compared with other modern algorithms for NILM. Furthermore, the training curve is smoother than for the previous algorithms. Important to note, our architecture of the CNN model is relatively simple compared with some previously suggested Neural Network models. The enhanced performance was achieved with data separation, pre-processing and the addition of synthetic data to the training dataset. 
 
 
 <p align="center"><img src="images/f1_scores.png" width="700" /></p>
