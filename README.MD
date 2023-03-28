@@ -18,7 +18,7 @@ The [presentation slides](https://github.com/arx7ti/ML2023SK-final-project/blob/
 
 The implementation is GPU-based. Double GPU (GTX RTX 2080 Ti) is enough to train and test the models. All the calculations take approximately 45 minutes.
 
-The list of the packages on which the mode tested is `requirements.txt` file. The most important one are
+The list of the packages on which the mode tested is `requirements.txt` file. The most important ones are:
 
 `torch==1.13.1 torchvision==0.4.1 numpy==1.21.6 timm==0.6.12 scikit-learn=1.1.2`
 
@@ -32,14 +32,11 @@ Another option is to use already prepared data and run the whole jupyter noteboo
 
 ## Training and Testing models 
 
-All the training and testing of ICAResNetFFN model and baseline Neural Network models (Temporal Pooling NILM and FIT-PS LSTM), you need to run jupyter notebook `ML2023SK_Team37_final.ipynb`. In addition, it will produce all figures provided in the `figures/` directory.
-
+All the training and testing of ICAResNetFFN model and baseline Neural Network models (Temporal Pooling NILM and FIT-PS LSTM), you need to run jupyter notebook `ML2023SK_Team37_final.ipynb`. In addition, it will create and save all the figures to the`figures/` directory similar to ones in this repository. 
 
 ## Baseline classical ML models
 
-If you want to personally separate the PLAID data, you need to download it and save to aggregated/ and synthetic/ directories, respectively. The metadata should be in the root directory.   <br />
-
-To get the scores of baseline classical models for comparison, run the following command 
+If you personally separated the PLAID data, to get the scores of baseline classical models for comparison, run the following command 
 ```
 python baseline_classical_ml.py
 ```
@@ -58,7 +55,7 @@ Our model has more uniform predictions for each appliance compared with other mo
 
 <p align="center"><img src="images/real.f1.bars.png" width="700" /></p>
 
-The analysis of components showed the components of synthetic data are independents, whereas the real data have dependence. It can be explained by the fact that some appliances can be up to a certain order considered similar to the other. For instance, washing machine simultaneously have heating, rotating parts and their power signal can be similar to other heating and rotating appliances. 
+The analysis of components showed the components of synthetic data are independents, whereas the real data have dependence. It can be explained by the fact that some appliances can be up to a certain order, considered similar to the other. For instance, washing machine simultaneously have heating, rotating parts and their power signal can be similar to other heating and rotating appliances.  
 
 <p align="center"><img src="images/components.png" width="900" /></p>
 
