@@ -11,7 +11,7 @@ In this work, we suggest a novel approach to tackle the problem of energy disagg
 
 ## Presentation and report
 
-The [presentation slides](https://github.com/arx7ti/ML2023SK-final-project/blob/main/presentation/ml_team37_presentation.pdf) and [report](https://github.com/arx7ti/ML2023SK-final-project/blob/main/report/final_project_report.pdf) with all the obtained results and discussion.  
+The [presentation slides](https://github.com/arx7ti/ML2023SK-final-project/blob/main/presentation/ml_team37_presentation.pdf) and [report](https://github.com/arx7ti/ML2023SK-final-project/blob/main/report/final_project_report_team_37.pdf) with all the obtained results and discussion.  
 
 
 ## Environments 
@@ -44,7 +44,7 @@ python baseline_classical_ml.py
 
 ## Results 
 
-All the results are specified in the [report](https://github.com/arx7ti/ML2023SK-final-project/blob/main/report/final_project_report.pdf). Here, we provide the most important ones. First, our model showed the best performance on train and test data compared with other modern algorithms for NILM. Furthermore, the training curve is smoother than for the previous algorithms. Important to note, our architecture of the CNN model is relatively simple compared with some previously suggested Neural Network models. The enhanced performance was achieved with data separation, pre-processing and the addition of synthetic data to the training dataset. 
+All the results are specified in the [report](https://github.com/arx7ti/ML2023SK-final-project/blob/main/report/final_project_report_team_37.pdf). Here, we provide the most important ones. First, our model showed the best performance on train and test data compared with other modern algorithms for NILM. Furthermore, the training curve is smoother than for the previous algorithms. Important to note, our architecture of the CNN model is relatively simple compared with some previously suggested Neural Network models. The enhanced performance was achieved with data separation, pre-processing and the addition of synthetic data to the training dataset. 
 
 
 <p align="center"><img src="images/f1_scores.png" width="700" /></p>
