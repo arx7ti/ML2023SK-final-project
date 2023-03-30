@@ -18,7 +18,7 @@ The [presentation slides](https://github.com/arx7ti/ML2023SK-final-project/blob/
 
 The implementation is GPU-based. Double GPU (GTX RTX 2080 Ti) is enough to train and test the models. All the calculations take approximately 45 minutes.
 
-The list of the packages on which the mode tested is `requirements.txt` file. The most important ones are:
+The list of the packages on which the model was tested:  `requirements.txt` file. The most important ones are:
 
 `torch==1.13.1 torchvision==0.4.1 numpy==1.21.6 timm==0.6.12 scikit-learn=1.1.2`
 
